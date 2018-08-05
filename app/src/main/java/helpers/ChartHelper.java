@@ -104,7 +104,7 @@ public class ChartHelper implements OnChartValueSelectedListener {
             mChart.notifyDataSetChanged();
 
             // limit the number of visible entries
-            mChart.setVisibleXRangeMaximum(10);
+            mChart.setVisibleXRangeMaximum (30);   // (10);
             // mChart.setVisibleYRange(30, AxisDependency.LEFT);
 
             // move to the latest entry
