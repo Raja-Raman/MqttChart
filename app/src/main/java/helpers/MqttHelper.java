@@ -25,7 +25,7 @@ public class MqttHelper {
     public MqttAndroidClient mqttAndroidClient;
     //public String serverUri = "tcp://broker.hivemq.com:1883/";   // do not have a trailing slash
     public String serverUri = "tcp://broker.hivemq.com:1883";
-    public  String clientId = "Raja_andro_cli_1963";
+    public  String clientId = "Rajas_Client";
     public  String subscriptionTopic = "raja/sensor/+";
 
     public String username = "xxxxxxx";
