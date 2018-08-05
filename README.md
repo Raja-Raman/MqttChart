@@ -10,3 +10,5 @@ This modification fixes the issue with life cycle event calls.
 
 The MPAndroid chart is from:
 https://github.com/PhilJay/MPAndroidChart
+
+[There are no warranties of any sort for this code]
