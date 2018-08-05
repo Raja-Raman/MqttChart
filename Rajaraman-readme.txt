@@ -8,16 +8,14 @@ https://customer.cloudmqtt.com/instance
 simulator.py is a python publisher to test this app.
 
 To compile the Android app:
-1. in the project level build.gradle under allprojects/repositories:  
+1. Create a new Android studio project with an empty activity.
+
+In the project level build.gradle under allprojects/repositories:  
 (NOTE: there is another buildscript/repositories section, but that will not work)
     maven {  url "https://repo.eclipse.org/content/repositories/paho-snapshots/" }
     maven { url "https://jitpack.io" }
 
-2. in app level build.gradle:
-    (in case you need SMS support):
-    Make target SDK < 23 to avoid runtime user persmission issues to send SMS:
-        targetSdkVersion  22
-        
+2. in app level build.gradle:       
     Add the paho client and service (note the version number carefully) under dependencies:
         implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
         implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1' 
